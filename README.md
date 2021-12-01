@@ -23,7 +23,8 @@ Nesse projeto foi usado:
 ![image](https://user-images.githubusercontent.com/44420212/144330924-9da456df-4be4-4b48-a3a9-aee0a1df3fbe.png)
 
 
-# Esse projeto foi feito com base no curso de React da plataforma "Sujeito Programador", do instrutor Matheus.
+Esse projeto foi feito com base no curso de React da plataforma "Sujeito Programador", do instrutor Matheus.
+
 - Para rodar o Projeto você vai digitar os comando:
 - "npm install" na pasta raiz do projeto. 
 - "json-server --watch server-json" para rodar a API Fake do Jason Server
