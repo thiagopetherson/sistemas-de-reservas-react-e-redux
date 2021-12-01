@@ -1,3 +1,35 @@
+# Sistema de Reservas utilizando React com Redux
+
+
+Nesse projeto foi usado:
+
+- ReactJS
+- Hooks
+- React Router Dom para o sistema de rotas dinâmicas.
+- Redux para controle de estados
+- Redux Saga para Middlewares
+- Biblioteca History para auxiliar o controle da API de rotas do Navegador que o React Router Dom Utiliza.
+- Biblioteca React Icons para os ícones.
+- Biblioteca Axios para requisições HTTP.
+- Biblioteca Jason Server para criação de Uma API "Falsa" que terá um arquivo JSON com dados que nos servirá de Backend.
+
+![image](https://user-images.githubusercontent.com/44420212/144330016-05fe303f-665b-41d1-899c-a57e8bcabbb4.png)
+
+- Nesse sistema de reservas criamos um API Fake onde guardamos dados referentes a destino de viagens e seus respectivos estoques.
+- Controlamos os dados nos estados do Redux. Dados esses que podem ser nossas viajens disponíveis, estoque dos produtos e reservas já salvas.
+- Criamos middlewares com Redux Saga, onde podemos executar ações antes de acessar os estados do Redux através das actions. Serve como um intermediados entre a ação do usuário e a alteração do dado no estado.
+- Navegamos através dos componentes através das rotas do React Router Dom. Facilitamos isso ainda mais utilizando a biblioteca history, para navegar através das rotas do navegador.
+
+![image](https://user-images.githubusercontent.com/44420212/144330924-9da456df-4be4-4b48-a3a9-aee0a1df3fbe.png)
+
+
+# Esse projeto foi feito com base no curso de React da plataforma "Sujeito Programador", do instrutor Matheus.
+- Para rodar o Projeto você vai digitar os comando:
+- "npm install" na pasta raiz do projeto. 
+- "json-server --watch server-json" para rodar a API Fake do Jason Server
+- "npm start" para rodar a aplicação React.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
