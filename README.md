@@ -25,7 +25,7 @@ Nesse projeto foi usado:
 
 Esse projeto foi feito com base no curso de React da plataforma "Sujeito Programador", do instrutor Matheus.
 
-- Para rodar o Projeto você vai digitar os comando:
+- Para rodar o Projeto você vai digitar os comandos:
 - "npm install" na pasta raiz do projeto. 
 - "json-server --watch server-json" para rodar a API Fake do Jason Server
 - "npm start" para rodar a aplicação React.
